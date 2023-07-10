@@ -23,8 +23,9 @@ socat -d -d -d tcp-l:8080,reuseaddr,fork exec:'sudo /bin/login',pty,setsid,setpg
 NOTE:
 Once I connect to the terminal, I issue the following command:
 
-stty rows 20
-stty columns 50
+  stty rows 20
+
+  stty columns 50
 
 This make the terminal size match my M5Stack screen.
 
