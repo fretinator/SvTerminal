@@ -5,7 +5,9 @@ Soft-scrolling Network Terminal with some ANSI Escape codes implemented,such as 
 Requires a secrets.h files with this values populated:
 
 // secrets.h
+
 #ifndef SECRETS_H
+
 #define SECRETS_H
 
 const String host = "192.168.1.233";
