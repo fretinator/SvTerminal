@@ -11,9 +11,13 @@ Requires a secrets.h files with this values populated:
 #define SECRETS_H
 
 const String host = "192.168.1.233";
+
 const int port = 8080;
+
 const char* my_ssid = "Your Wifi SSID";
+
 const char* my_password = "YourWifiPassword";
+
 
 #endif
 
