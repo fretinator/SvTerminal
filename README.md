@@ -21,7 +21,7 @@ On the Linux side, create a simple script that runs this command (example includ
 socat -d -d -d tcp-l:8080,reuseaddr,fork exec:'sudo /bin/login',pty,setsid,setpgid,stderr,ctty
 
 NOTE:
-Once I connect to the terminal, I issue the following command:
+Once I connect to the terminal, I issue the following commands:
 
   stty rows 20
 
